@@ -1,6 +1,6 @@
 # Gautam's Portfolio website [React Project]
 
-## [Live Demo](www.singhgautam.com)
+[Live Demo](www.singhgautam.com)
 
 After getting the starter files, you need to go the file directory and run
 
