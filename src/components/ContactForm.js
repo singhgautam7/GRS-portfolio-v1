@@ -85,7 +85,7 @@ export default function ContactForm() {
               type="text"
               id="message"
               name="message"
-              rows="4"
+              rows="3"
               value={enteredMessage}
               onChange={(e) => setMessage(e.target.value)}
             />
