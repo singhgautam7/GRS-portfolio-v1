@@ -1,9 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdEmail, MdLocalPhone } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
+import Github from './ContactButtons/Github';
+import Linkedin from './ContactButtons/Linkedin';
+import Medium from './ContactButtons/Medium';
+import Youtube from './ContactButtons/Youtube';
+import Instagram from './ContactButtons/Instagram';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -34,6 +39,12 @@ const ContactSectionStyle = styled.div`
     border-radius: 12px;
     /* padding-left: 3rem; */
   }
+  .socialContianer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;
@@ -63,6 +74,13 @@ export default function ContactSection() {
               text="gautamsingh1997@live.com"
             />
             <ContactInfoItem text="Raipur(CG), India" />
+            <div className="socialContianer">
+              <Github />
+              <Linkedin />
+              <Medium />
+              <Youtube />
+              <Instagram />
+            </div>
           </div>
           <div className="right">
             <ContactForm />
