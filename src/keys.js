@@ -1,0 +1,15 @@
+export const keys = {
+  KeyDjango: 'django',
+  KeyVue: 'vue',
+  KeyHTML: 'html',
+  KeyCSS: 'css',
+  KeyJs: 'javascript',
+  KeyReact: 'react',
+  KeyAndroid: 'android',
+  KeyTerraform: 'terraform',
+  KeyPython: 'python',
+  KeyJava: 'java',
+  KeyGCloud: 'gcloud',
+  KeyUbuntu: 'ubuntu',
+  KeyFlask: 'flask',
+};
