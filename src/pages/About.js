@@ -49,7 +49,7 @@ const AboutPageStyles = styled.div`
       border: 2px solid var(--gray-1);
       filter: grayscale(90%);
       transition: 0.3s ease filter;
-      &:hover {
+      &:hover, &:active {
         filter: grayscale(0%);
       }
     }
