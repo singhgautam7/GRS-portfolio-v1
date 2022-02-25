@@ -23,7 +23,6 @@ const FormStyle = styled.form`
     margin-top: 1rem;
   }
   textarea {
-    min-height: 250px;
     resize: vertical;
   }
   button[type='submit'] {
@@ -40,49 +39,59 @@ const FormStyle = styled.form`
 `;
 
 export default function ContactForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [enteredSubject, setSubject] = useState('');
+  const [enteredMessage, setMessage] = useState('');
+
+  const emptyAllValues = () => {
+    setSubject('');
+    setMessage('');
+  };
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+    if (newWindow) newWindow.opener = null;
+  };
+
+  const submitHandler = (event) => {
+    // Prevent reload
+    event.preventDefault();
+
+    const url = `mailto:gautamsingh1997@live.com?subject=${enteredSubject}&body=${enteredMessage}`;
+    // Open mail:to
+    openInNewTab(url);
+
+    // Emtry all entered value
+    emptyAllValues();
+  };
+
   return (
     <>
-      <FormStyle>
-        <div className="form-group">
-          <label htmlFor="name">
-            Your Name
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </label>
-        </div>
+      <FormStyle onSubmit={submitHandler}>
         <div className="form-group">
           <label htmlFor="email">
-            Your Email
+            Your Subject
             <input
-              type="email"
-              id="email"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              id="subject"
+              name="subject"
+              value={enteredSubject}
+              onChange={(e) => setSubject(e.target.value)}
             />
           </label>
         </div>
         <div className="form-group">
           <label htmlFor="message">
-            Your message
+            Your Message
             <textarea
               type="text"
               id="message"
               name="message"
-              value={message}
+              rows="4"
+              value={enteredMessage}
               onChange={(e) => setMessage(e.target.value)}
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit">Send Mail</button>
       </FormStyle>
     </>
   );

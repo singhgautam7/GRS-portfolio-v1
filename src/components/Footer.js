@@ -58,7 +58,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Gautam Singh</h1>
-          <PText>Google Certified Professional Data Engineer</PText>
+          <PText>Professional Data Engineer</PText>
           <PText>Full-Stack Developer</PText>
           <PText>Fitness Enthusiast</PText>
         </div>
