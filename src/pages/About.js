@@ -131,11 +131,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Kendriya Vidyalaya 1, Raipur(CG)']}
+                items={[
+                  'Kendriya Vidyalaya 1, Raipur(CG)',
+                  '9.4 CGPA in Higher Secondary',
+                  '87.6% in Senior Secondary',
+                ]}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['SSGI, Junwani, Bhilai(CG)']}
+                title="College"
+                items={['SSGI, Junwani, Bhilai(CG)', '70.6%']}
               />
             </div>
             <div className="about__info__item">
