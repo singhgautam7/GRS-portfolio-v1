@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     --dark-bg: #000000;
     --gray-1: #BCB4B4;
     --deep-dark: #111111;
-    --deep-dark-2: #090909;
+    --deep-dark-2: #0F0F0F;
     --gray-2: #363636;
     --white : white;
     --black: black;
