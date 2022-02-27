@@ -130,16 +130,16 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
-                title="School"
-                items={[
-                  'Kendriya Vidyalaya 1, Raipur(CG)',
-                  '9.4 CGPA in Higher Secondary',
-                  '87.6% in Senior Secondary',
-                ]}
+                title="10th Std"
+                items={['9.4 CGPA', 'Kendriya Vidyalaya 1, Raipur(CG)']}
+              />
+              <AboutInfoItem
+                title="12th Std"
+                items={['87.6%', 'Kendriya Vidyalaya 1, Raipur(CG)']}
               />
               <AboutInfoItem
                 title="College"
-                items={['SSGI, Junwani, Bhilai(CG)', '70.6%']}
+                items={['70.6%', 'SSGI, Junwani, Bhilai(CG)']}
               />
             </div>
             <div className="about__info__item">
