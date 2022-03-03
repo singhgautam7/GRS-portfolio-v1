@@ -24,7 +24,7 @@ const projects = [
     id: uuidv4(),
     name: 'Terraform GCP Modules',
     desc:
-      'This is a code written in terraform language. You can find some modules in this repository which can be executed in GCP for the resources creation (mainly infrastructure management to be precise.)',
+      'This is a code written in terraform language. You can find some modules in this repository which can be executed in GCP for the resources creation (mainly infrastructure management to be precise)',
     tags: ['Personal'],
     langs: [keys.KeyTerraform],
     duration: '1 week',
