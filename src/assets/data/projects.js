@@ -22,13 +22,13 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Terraform GCP Logging',
+    name: 'Terraform GCP Modules',
     desc:
-      'This is a code written in terraform language. Running this in Google Cloud Platform will result in creation of storage bucket and compute instance which will enable cloud logging.',
+      'This is a code written in terraform language. You can find some modules in this repository which can be executed in GCP for the resources creation (mainly infrastructure management to be precise.)',
     tags: ['Personal'],
     langs: [keys.KeyTerraform],
     duration: '1 week',
-    repository: 'https://github.com/singhgautam7/terraform-gcp-logging',
+    repository: 'https://github.com/singhgautam7/terraform-gcp',
     live: '',
   },
   {
