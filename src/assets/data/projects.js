@@ -33,6 +33,17 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'Python Goldmine',
+    desc:
+      'This is a collection of various useful python custom packages designed by me which can be helpul in various generic cases. This repository is updated on a regular basis with new packages.',
+    tags: ['Personal'],
+    langs: [keys.KeyPython],
+    duration: 'Ongoing',
+    repository: 'https://github.com/singhgautam7/Python-GoldMine',
+    live: '',
+  },
+  {
+    id: uuidv4(),
     name: 'QuizUp',
     desc:
       'An online android Quiz game with various topics and various questions managed via firebase. The detailed statistics and analysis are shown after each game. It also features a topic-wise online ranking system to compete with friends and around the globe.',
