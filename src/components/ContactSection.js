@@ -7,6 +7,7 @@ import SectionTitle from './SectionTitle';
 import Github from './ContactButtons/Github';
 import Linkedin from './ContactButtons/Linkedin';
 import Medium from './ContactButtons/Medium';
+import Hashnode from './ContactButtons/Hashnode';
 import Youtube from './ContactButtons/Youtube';
 import Instagram from './ContactButtons/Instagram';
 
@@ -43,7 +44,7 @@ const ContactSectionStyle = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 0.8rem;
+    gap: 0.2rem;
   }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
@@ -77,6 +78,7 @@ export default function ContactSection() {
             <div className="socialContianer">
               <Github />
               <Linkedin />
+              <Hashnode />
               <Medium />
               <Youtube />
               <Instagram />

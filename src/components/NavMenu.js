@@ -162,6 +162,20 @@ export default function NavMenu() {
             Contact
           </NavLink>
         </li>
+        <li>
+          <a href="https://singhgautam.hashnode.dev/" className="button">
+            Blog
+          </a>
+          {/* <NavLink
+            to="https://singhgautam.hashnode.dev/"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Blog
+          </NavLink> */}
+        </li>
       </ul>
     </NavStyles>
   );
