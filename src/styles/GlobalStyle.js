@@ -16,6 +16,16 @@ const GlobalStyles = createGlobalStyle`
     --black: black;
     --gray-3: #CC0000
   }
+  // :root{
+  //   --dark-bg: #ffffff;
+  //   --gray-1: #434b4b;
+  //   --deep-dark: #eeeeee;
+  //   --deep-dark-2: #f0f0f0;
+  //   --gray-2: #c9c9c9;
+  //   --white : black;
+  //   --black: white;
+  //   --gray-3: #33ffff
+  // }
   html{
     font-size: 10px;
     font-family: 'Roboto Mono';
