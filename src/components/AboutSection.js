@@ -125,7 +125,7 @@ export default function AboutSection() {
           <div className="aboutSection__buttons">
             <Button
               btnText="Download CV"
-              btnLink="https://github.com/singhgautam7/singhgautam7/raw/main/assets/GRS_resume.pdf"
+              btnLink="https://github.com/singhgautam7/singhgautam7/raw/main/assets/GRS_resume_dark.pdf"
             />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>

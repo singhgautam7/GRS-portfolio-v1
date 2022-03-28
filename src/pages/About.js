@@ -118,7 +118,7 @@ export default function About() {
               </div>
               <Button
                 btnText="Download CV"
-                btnLink="https://github.com/singhgautam7/singhgautam7/raw/main/assets/GRS_resume.pdf"
+                btnLink="https://github.com/singhgautam7/singhgautam7/raw/main/assets/GRS_resume_dark.pdf"
               />
             </div>
             <div className="right">
