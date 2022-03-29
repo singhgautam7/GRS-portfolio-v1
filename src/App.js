@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 export default function App() {
   // load state to show loader
@@ -57,6 +58,9 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/resume">
+            <Resume />
           </Route>
           <Route path="/">
             <Home />

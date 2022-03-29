@@ -163,18 +163,20 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          <a href="https://singhgautam.hashnode.dev/" className="button">
-            Blog
-          </a>
-          {/* <NavLink
-            to="https://singhgautam.hashnode.dev/"
+          <NavLink
+            to="/resume"
             onClick={() => setShowNav(!showNav)}
             role="button"
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
+            Resume
+          </NavLink>
+        </li>
+        <li>
+          <a href="https://singhgautam.hashnode.dev/" className="button">
             Blog
-          </NavLink> */}
+          </a>
         </li>
       </ul>
     </NavStyles>
