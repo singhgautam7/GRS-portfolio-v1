@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
@@ -10,14 +10,6 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 
 export default function App() {
-  // load state to show loader
-  const [load, upadateLoad] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-  }, []);
-  console.log('load', load);
   return (
     <>
       {/* <Router>
