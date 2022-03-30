@@ -107,7 +107,7 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
                 title: 'LinkedIn',
@@ -118,8 +118,16 @@ export default function Footer() {
                 path: 'https://github.com/singhgautam7',
               },
               {
+                title: 'PypI',
+                path: 'https://pypi.org/user/singhgautam7/',
+              },
+              {
                 title: 'Medium',
                 path: 'https://medium.com/@singhgautam7',
+              },
+              {
+                title: 'Hashnode',
+                path: 'https://singhgautam.hashnode.dev/',
               },
               {
                 title: 'Instagram',
