@@ -56,7 +56,7 @@ export default function ContactForm() {
     // Prevent reload
     event.preventDefault();
 
-    const url = `mailto:gautamsingh1997@live.com?subject=${enteredSubject}&body=${enteredMessage}`;
+    const url = `mailto:gautamsingh1997@gmail.com?subject=${enteredSubject}&body=${enteredMessage}`;
     // Open mail:to
     openInNewTab(url);
 

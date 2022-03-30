@@ -10,6 +10,9 @@ import Medium from './ContactButtons/Medium';
 import Hashnode from './ContactButtons/Hashnode';
 import Youtube from './ContactButtons/Youtube';
 import Instagram from './ContactButtons/Instagram';
+import Twitter from './ContactButtons/Twitter';
+import Gmail from './ContactButtons/Gmail';
+import Pypi from './ContactButtons/Pypi';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -72,16 +75,19 @@ export default function ContactSection() {
           <div className="left">
             <ContactInfoItem
               icon={<MdEmail />}
-              text="gautamsingh1997@live.com"
+              text="gautamsingh1997@gmail.com"
             />
             <ContactInfoItem text="Raipur(CG), India" />
             <div className="socialContianer">
+              <Gmail />
               <Github />
+              <Pypi />
               <Linkedin />
               <Hashnode />
               <Medium />
               <Youtube />
               <Instagram />
+              <Twitter />
             </div>
           </div>
           <div className="right">

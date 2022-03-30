@@ -174,7 +174,12 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          <a href="https://singhgautam.hashnode.dev/" className="button">
+          <a
+            href="https://singhgautam.hashnode.dev/"
+            className="button"
+            target="_blank"
+            rel="noreferrer"
+          >
             Blog
           </a>
         </li>

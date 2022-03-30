@@ -94,8 +94,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: 'gautamsingh1997@live.com',
-                path: 'mailto:gautamsingh1997@live.com',
+                title: 'gautamsingh1997@gmail.com',
+                path: 'mailto:gautamsingh1997@gmail.com',
               },
               {
                 title: 'Raipur(CG), India',
