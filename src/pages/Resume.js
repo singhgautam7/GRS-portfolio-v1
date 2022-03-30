@@ -1,49 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { MdSearch } from 'react-icons/md';
-import SectionTitle from '../components/SectionTitle';
-import ProjectsInfo from '../assets/data/projects';
-import ProjectItem from '../components/ProjectItem';
 
-const ResumeStyle = styled.div`
-  padding: 10rem 0;
-  .projects__allItems {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 5rem;
-    margin-top: 5rem;
-  }
-  .projects__searchBar {
-    position: relative;
-    width: 300px;
-    margin-top: 5rem;
-  }
-  .projects__searchBar input {
-    width: 100%;
-    font-size: 2rem;
-    padding: 0.8rem;
-    color: var(--black);
-    border-radius: 6px;
-    outline: none;
-    border: none;
-  }
-  .projects__searchBar .searchIcon {
-    position: absolute;
-    width: 2rem;
-
-    right: 1rem;
-  }
-  .projects__searchBar .searchIcon path {
-    color: var(--deep-dark);
-  }
-  @media only screen and (max-width: 768px) {
-    .projects__searchBar,
-    .projects__searchBar form,
-    .projects__searchBar input {
-      width: 100%;
-    }
-  }
-`;
+const ResumeStyle = styled.div``;
 
 export default function Projects() {
   //   const canvaHtml = `<div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
@@ -91,14 +49,14 @@ export default function Projects() {
               allow="fullscreen"
             />
           </div>
-          <a
+          {/* <a
             href="https://www.canva.com/design/DAE8YL789Is/view?utm_content=DAE8YL789Is&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
             target="_blank"
             rel="noreferrer"
           >
             GRS CV - Dark
           </a>{' '}
-          by Gautam Singh
+          by Gautam Singh */}
         </div>
       </ResumeStyle>
     </>
