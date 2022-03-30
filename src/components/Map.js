@@ -57,7 +57,7 @@ export default function Map() {
             target="_blank"
             rel="noreferrer"
           >
-            Open in google map
+            Open in Google Maps
           </a>
         </div>
       </div>
