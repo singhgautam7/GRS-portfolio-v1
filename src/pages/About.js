@@ -4,6 +4,7 @@ import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
+import AboutLongInfoItem from '../components/AboutLongInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
@@ -14,6 +15,8 @@ const AboutPageStyles = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    animation-duration: 1s;
+    animation-name: fadeIn;
   }
   .left {
     flex: 3;
@@ -47,11 +50,8 @@ const AboutPageStyles = styled.div`
       height: 600px;
       margin: 0 auto;
       border: 2px solid var(--gray-1);
-      filter: grayscale(90%);
-      transition: 0.3s ease filter;
-      &:hover, &:active {
-        filter: grayscale(0%);
-      }
+      animation: fadeIn 2s, colorIn 8s;
+      -webkit-animation-fill-mode: forwards;
     }
   }
   .about__info__items {
@@ -158,22 +158,74 @@ export default function About() {
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="Data Eng."
-                items={['Dec 2021 - Current', 'SpringML']}
+              <AboutLongInfoItem
+                title="SpringML"
+                post="Data Engineer"
+                duration="Dec 2021 - Current"
+                items={[
+                  "Devoted time to work on Google cloud platform and it's resources.",
+                  'Utilized Infrastructure as a code tool (like terraform) to seamlessly manage the resource management in cloud.',
+                  'Adapted microservice architecture in some projects to increase flexibility.',
+                ]}
               />
-              <AboutInfoItem
-                title="SDE - 1"
-                items={['Oct 2019 - Dec 2021', 'CodeNicely']}
+              <AboutLongInfoItem
+                title="CodeNicely"
+                post="Software Development Engineer - 1"
+                duration="Oct 2019 - Dec 2021"
+                items={[
+                  "Developed back-end from scratch on one of CodeNicely's biggest project.",
+                  "Fashioned web-applications as per client's demands and expectations.",
+                  'Spearheaded a team of 4 people to design and develop projects on different platorms.',
+                  'Managed clients personally and noted their feedbacks for delopment and quality assurance.',
+                  'Mentored new django developers in the company.',
+                  "Interviewed new applicants and shortlisted them as per company's requirements.",
+                ]}
               />
-              <AboutInfoItem
-                title="BDA"
-                items={['Jun 2019 - Sept 2019', "Byju's"]}
+              <AboutLongInfoItem
+                title="Byju's"
+                post="Business Development Associalte"
+                duration="Jan 2019 - Sept 2019"
+                items={[
+                  'Regularly and effectively met warm calling targets, 2.5-3 hours call time per day.',
+                  "Accelerated company's growth by achieving a target revenue of 1.5L-2L per week.",
+                ]}
               />
-              <AboutInfoItem
-                title="BDA Intern"
-                items={['Jan 2019 - April 2019', "Byju's"]}
+            </div>
+            <div className="about__info__item">
+              <h1 className="about__info__heading">
+                Certifications and Achievements
+              </h1>
+              <AboutLongInfoItem
+                title="Google"
+                post=""
+                duration=""
+                items={[
+                  'Google Cloud Platform Certified Professional Data Engineer.',
+                ]}
+              />
+              <AboutLongInfoItem
+                title="Scalablility"
+                post=""
+                duration=""
+                items={[
+                  'Designed backend system for an e-commerce business to manage 42k customers at once.',
+                ]}
+              />
+              <AboutLongInfoItem
+                title="Diversified"
+                post=""
+                duration=""
+                items={[
+                  'Diversified my technical experience by creating chat application, wallets, ecommerce application, promo code management system, order management system, microservice architecture etc.',
+                ]}
+              />
+              <AboutLongInfoItem
+                title="Integrations"
+                post=""
+                duration=""
+                items={[
+                  'Integrated third-party APIs like , payment gateway(Razorpay), calling(Ezetap, Twilio), sms(MSG91, BulkSMS), accounts and ledger(Zoho Books), locations(google maps, locus) etc.',
+                ]}
               />
             </div>
           </div>

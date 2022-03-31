@@ -10,7 +10,6 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
   border-radius: 12px;
   ul {
     max-width: 1200px;
@@ -162,7 +161,7 @@ export default function NavMenu() {
             Contact
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/resume"
             onClick={() => setShowNav(!showNav)}
@@ -172,7 +171,7 @@ export default function NavMenu() {
           >
             Resume
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://singhgautam.hashnode.dev/"

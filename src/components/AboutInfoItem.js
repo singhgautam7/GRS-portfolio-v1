@@ -7,7 +7,6 @@ const AboutItemStyles = styled.div`
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  /* gap: 5rem; */
   margin-top: 3rem;
   .title {
     font-size: 2.4rem;

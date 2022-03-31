@@ -58,8 +58,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Gautam Singh</h1>
-          <PText>Professional Data Engineer</PText>
+          <PText>Data Engineer</PText>
           <PText>Full-Stack Developer</PText>
+          <PText>Python Expert</PText>
           <PText>Fitness Enthusiast</PText>
         </div>
         <div className="footer__col2">
@@ -86,6 +87,11 @@ export default function Footer() {
                 title: 'Contact',
                 path: '/contact',
               },
+              // {
+              //   type: 'Link',
+              //   title: 'Resume',
+              //   path: '/resume',
+              // },
             ]}
           />
         </div>
@@ -116,14 +122,6 @@ export default function Footer() {
               {
                 title: 'GitHub',
                 path: 'https://github.com/singhgautam7',
-              },
-              {
-                title: 'PypI',
-                path: 'https://pypi.org/user/singhgautam7/',
-              },
-              {
-                title: 'Medium',
-                path: 'https://medium.com/@singhgautam7',
               },
               {
                 title: 'Hashnode',
