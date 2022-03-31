@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.jpg';
-import PText from './PText';
 import Button from './Button';
 import Type from './Animations/Type';
 
-const HeroStyles = styled.div`
+const HeroStyles = styled.div`\
   .hero {
     margin: 4rem 0 0 0;
     padding: 0 8rem;
@@ -32,6 +31,8 @@ const HeroStyles = styled.div`
     # margin-bottom: -4rem;
     margin-bottom: 1rem;
     position: relative;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
     span {
       display: inline-block;
       width: 100%;
@@ -41,6 +42,10 @@ const HeroStyles = styled.div`
       font-size: 7rem;
       color: var(--white);
     }
+  }
+  .button-wrapper {
+    animation-duration: 1s;
+    animation-name: fadeInUp;
   }
   .hero__img {
     display: flex;
@@ -53,6 +58,8 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
     filter: grayscale(90%);
     transition: 0.3s ease filter;
+    animation-duration: 2s;
+    animation-name: fadeIn;
     &:hover, &:active {
       filter: grayscale(0%);
     }
@@ -64,7 +71,8 @@ const HeroStyles = styled.div`
   .Typewriter__wrapper {
     font-size: 2.2em !important;
     color: var(--gray-1) !important;
-    font-weight: 600 !important;
+    font-weight: 600 !important;animation-duration: 1s;
+    animation-name: fadeInUp;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
@@ -90,7 +98,8 @@ const HeroStyles = styled.div`
       text-align: center;
     }
     .hero {
-      padding: 36rem 0 30rem 0;
+      margin-top: 15em;
+      padding: 0 0 15rem 0;
       height: 100vh;
       width: 100%;
       text-align: center;

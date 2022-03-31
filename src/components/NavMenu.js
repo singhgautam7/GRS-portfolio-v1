@@ -10,7 +10,6 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
   border-radius: 12px;
   ul {
     max-width: 1200px;

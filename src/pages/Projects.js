@@ -7,16 +7,24 @@ import ProjectItem from '../components/ProjectItem';
 
 const ProjectStyle = styled.div`
   padding: 10rem 0;
+  .section-title {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+  }
   .projects__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5rem;
     margin-top: 5rem;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
   }
   .projects__searchBar {
     position: relative;
     width: 300px;
     margin-top: 5rem;
+    animation-duration: 1s;
+    animation-name: fadeIn;
   }
   .projects__searchBar input {
     width: 100%;

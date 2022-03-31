@@ -14,6 +14,8 @@ const AboutPageStyles = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
   }
   .left {
     flex: 3;

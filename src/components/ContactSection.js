@@ -16,12 +16,18 @@ import Pypi from './ContactButtons/Pypi';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
+  .section-title {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+  }
   .contactSection__wrapper {
     display: flex;
     gap: 5rem;
     margin-top: 7rem;
     justify-content: space-between;
     position: relative;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
   }
   .contactSection__wrapper::after {
     position: absolute;
