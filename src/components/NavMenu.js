@@ -161,7 +161,7 @@ export default function NavMenu() {
             Contact
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/resume"
             onClick={() => setShowNav(!showNav)}
@@ -171,7 +171,7 @@ export default function NavMenu() {
           >
             Resume
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://singhgautam.hashnode.dev/"

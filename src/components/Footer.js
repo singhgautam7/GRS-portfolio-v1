@@ -87,11 +87,11 @@ export default function Footer() {
                 title: 'Contact',
                 path: '/contact',
               },
-              {
-                type: 'Link',
-                title: 'Resume',
-                path: '/resume',
-              },
+              // {
+              //   type: 'Link',
+              //   title: 'Resume',
+              //   path: '/resume',
+              // },
             ]}
           />
         </div>
