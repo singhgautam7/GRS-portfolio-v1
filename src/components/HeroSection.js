@@ -51,18 +51,14 @@ const HeroStyles = styled.div`\
     display: flex;
     flex-basis: 40%;
     flex-grow: 0;
-    max-width: 600px; # Originally 900px
+    max-width: 600px;
     width: 100%;
     height: 500px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
-    filter: grayscale(90%);
-    transition: 0.3s ease filter;
-    animation-duration: 2s;
-    animation-name: fadeIn;
-    &:hover, &:active {
-      filter: grayscale(0%);
-    }
+    border: 2px solid var(--gray-1);
+    animation: fadeIn 2s, colorIn 7s;
+    -webkit-animation-fill-mode: forwards;
   }
   .hero__info {
     padding-right: 5px;

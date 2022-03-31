@@ -15,7 +15,7 @@ const AboutPageStyles = styled.div`
     justify-content: center;
     gap: 2rem;
     animation-duration: 1s;
-    animation-name: fadeInUp;
+    animation-name: fadeIn;
   }
   .left {
     flex: 3;
@@ -49,11 +49,8 @@ const AboutPageStyles = styled.div`
       height: 600px;
       margin: 0 auto;
       border: 2px solid var(--gray-1);
-      filter: grayscale(90%);
-      transition: 0.3s ease filter;
-      &:hover, &:active {
-        filter: grayscale(0%);
-      }
+      animation: fadeIn 2s, colorIn 8s;
+      -webkit-animation-fill-mode: forwards;
     }
   }
   .about__info__items {

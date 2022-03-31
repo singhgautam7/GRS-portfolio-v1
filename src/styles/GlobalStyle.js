@@ -87,5 +87,14 @@ const GlobalStyles = createGlobalStyle`
       opacity: 1;
     }
   }
+  @keyframes colorIn {
+    from { 
+      filter: grayscale(90%);
+    }
+
+    to {
+      filter: grayscale(0%);
+    }
+  }
 `;
 export default GlobalStyles;
