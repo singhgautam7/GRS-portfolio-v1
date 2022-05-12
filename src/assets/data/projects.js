@@ -33,13 +33,50 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Python Goldmine',
+    name: 'Python Profiler',
     desc:
-      'This is a collection of various useful python custom packages designed by me which can be helpul in various generic cases. This repository is updated on a regular basis with new packages.',
+      'This repository can help you in finding out the total time taken to execute a function and the snippets which takes up the most time.',
     tags: ['Personal'],
     langs: [keys.KeyPython],
-    duration: 'Ongoing',
-    repository: 'https://github.com/singhgautam7/Python-GoldMine',
+    duration: '2 days',
+    repository:
+      'https://github.com/singhgautam7/Python-GoldMine/tree/master/python_profiler',
+    live: '',
+  },
+  {
+    id: uuidv4(),
+    name: 'Python - Know Your Exceptions',
+    desc:
+      'If you are having troubles in finiding out which exception classes to use to handle the exceptions/errors in your code, this package will help you to just serve you the solution for the same.',
+    tags: ['Personal'],
+    langs: [keys.KeyPython],
+    duration: '1 day',
+    repository:
+      'https://github.com/singhgautam7/Python-GoldMine/tree/master/know_your_exceptions',
+    live: 'https://pypi.org/project/know-your-exceptions/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Python Colored Output',
+    desc:
+      'This python package will help you to print out colored/formatted outputs in your terminal. So basically, this is just python print with steroids.',
+    tags: ['Personal'],
+    langs: [keys.KeyPython],
+    duration: '1 week',
+    repository:
+      'https://github.com/singhgautam7/Python-GoldMine/tree/master/beauty_print',
+    live: 'https://pypi.org/project/c-out/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Gcloud IAM custom roles using Python',
+    desc:
+      'This will help you to manage(CRUD) the custom roles in your gcloud project/organization.',
+    tags: ['Personal'],
+    langs: [keys.KeyPython, keys.KeyGCloud],
+    duration: '2 days',
+    repository:
+      'https://github.com/singhgautam7/Python-GoldMine/tree/master/gcloud_iam_custom_roles',
     live: '',
   },
   {
