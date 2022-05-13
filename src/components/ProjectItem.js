@@ -12,6 +12,7 @@ import ReactTag from './ProjectTags/ReactTag';
 import Terraform from './ProjectTags/Terraform';
 import Vue from './ProjectTags/Vue';
 import Java from './ProjectTags/Java';
+import Gcloud from './ProjectTags/GCloud';
 import { keys } from '../keys';
 
 const ProjectItemStyles = styled.div`
@@ -107,6 +108,7 @@ export default function ProjectItem({
         {langs.indexOf(keys.KeyTerraform) >= 0 && <Terraform />}
         {langs.indexOf(keys.KeyPython) >= 0 && <Python />}
         {langs.indexOf(keys.KeyJava) >= 0 && <Java />}
+        {langs.indexOf(keys.KeyGCloud) >= 0 && <Gcloud />}
       </div>
     </ProjectItemStyles>
   );
