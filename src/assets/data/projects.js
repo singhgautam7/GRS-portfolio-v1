@@ -33,6 +33,18 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'Python SickDict',
+    desc:
+      'An IDE friendly (auto-completion) python dictionary with dot-accessible attributes. All the dict features with much more features added.',
+    tags: ['Personal'],
+    langs: [keys.KeyPython],
+    duration: '2 days',
+    repository:
+      'https://github.com/singhgautam7/Python-GoldMine/tree/master/sick_dict',
+    live: '',
+  },
+  {
+    id: uuidv4(),
     name: 'Python Profiler',
     desc:
       'This repository can help you in finding out the total time taken to execute a function and the snippets which takes up the most time.',
