@@ -41,7 +41,7 @@ const projects = [
     duration: '2 days',
     repository:
       'https://github.com/singhgautam7/Python-GoldMine/tree/master/sick_dict',
-    live: '',
+    live: 'https://pypi.org/project/sick-dict/',
   },
   {
     id: uuidv4(),
