@@ -32,7 +32,7 @@ const HeroStyles = styled.div`\
     margin-bottom: 1rem;
     position: relative;
     animation-duration: 1s;
-    animation-name: fadeInUp;
+    animation-name: fadeIn;
     span {
       display: inline-block;
       width: 100%;
@@ -44,7 +44,7 @@ const HeroStyles = styled.div`\
     }
   }
   .button-wrapper {
-    animation-duration: 1s;
+    animation-duration: 0.7s;
     animation-name: fadeInUp;
   }
   .hero__img {
@@ -67,14 +67,17 @@ const HeroStyles = styled.div`\
   .Typewriter__wrapper {
     font-size: 2.2em !important;
     color: var(--gray-1) !important;
-    font-weight: 600 !important;animation-duration: 1s;
-    animation-name: fadeInUp;
+    font-weight: 600 !important;
+    animation-duration: 1s;
+    animation-name: fadeIn;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
     color: var(--white) !important;
+    animation-name: fadeIn;
+    animation-duration: 1s;
   }
-  
+
   @media (max-width: 767px) {
   }
 
@@ -117,6 +120,7 @@ const HeroStyles = styled.div`\
       height: 400px;
       width: 90%;
       margin: 2rem 0 0 0;
+      animation: fadeInUp 0.7s, colorIn 7s;
     }
     .hero__info {
       text-align: center;

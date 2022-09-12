@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import AboutLongInfoItem from '../components/AboutLongInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -121,9 +120,9 @@ export default function About() {
                 btnLink="https://github.com/singhgautam7/singhgautam7/raw/main/assets/GRS_resume_dark.pdf"
               />
             </div>
-            <div className="right">
+            {/* <div className="right">
               <img src={AboutImg} alt="me" />
-            </div>
+            </div> */}
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
