@@ -224,7 +224,7 @@ export default function About() {
                 post=""
                 duration=""
                 items={[
-                  'Integrated third-party APIs like , payment gateway(Razorpay), calling(Ezetap, Twilio), sms(MSG91, BulkSMS), accounts and ledger(Zoho Books), locations(google maps, locus) etc.',
+                  'Integrated third-party APIs like payment gateway(Razorpay), calling(Ezetap, Twilio), sms(MSG91, BulkSMS), accounts and ledger(Zoho Books), locations(google maps, locus) etc.',
                 ]}
               />
             </div>

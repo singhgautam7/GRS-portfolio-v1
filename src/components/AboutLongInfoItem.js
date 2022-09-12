@@ -12,6 +12,7 @@ const AboutItemStyles = styled.div`
   }
   .title {
     font-size: 2.4rem;
+    margin-top: 1rem;
   }
   .items {
     grid-column: 2 / 5;
@@ -72,7 +73,7 @@ export default function AboutLongInfoItem({
     <AboutItemStyles>
       <div className="titles">
         <h1 className="title">{title}</h1>
-        <ProjectDuration duration={duration} />
+        {duration !== '' && <ProjectDuration duration={duration} />}
       </div>
       <div className="items">
         {post !== '' && <p className="post_para">{post}</p>}
