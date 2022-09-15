@@ -22,14 +22,15 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Terraform GCP Modules',
+    name: 'CLIA - Command Line Intelligent Assistant',
     desc:
-      'This is a code written in terraform language. You can find some modules in this repository which can be executed in GCP for the resources creation (mainly infrastructure management to be precise)',
+      'This is an attemt to create a minitature version of smart assistant (like siri, alexa, google assistant) on the command line interface. It is build on Python.',
     tags: ['Personal'],
-    langs: [keys.KeyTerraform],
-    duration: '1 week',
-    repository: 'https://github.com/singhgautam7/terraform-gcp',
-    live: '',
+    langs: [keys.KeyPython],
+    duration: '3 days',
+    repository:
+      'https://github.com/singhgautam7/CLIA---Command-Line-Intelligent-Assistant',
+    live: 'https://pypi.org/project/clia/',
   },
   {
     id: uuidv4(),
@@ -42,6 +43,17 @@ const projects = [
     repository:
       'https://github.com/singhgautam7/Python-GoldMine/tree/master/sick_dict',
     live: 'https://pypi.org/project/sick-dict/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Terraform GCP Modules',
+    desc:
+      'This is a code written in terraform language. You can find some modules in this repository which can be executed in GCP for the resources creation (mainly infrastructure management to be precise)',
+    tags: ['Personal'],
+    langs: [keys.KeyTerraform],
+    duration: '1 week',
+    repository: 'https://github.com/singhgautam7/terraform-gcp',
+    live: '',
   },
   {
     id: uuidv4(),
