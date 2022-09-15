@@ -143,7 +143,7 @@ const projects = [
     desc:
       'Telelanguage is committed to providing the customers with the highest quality language services with fast connections to certified interpreters. Interpretation over audio and video calls are the core features that it provides.',
     tags: ['Professional'],
-    langs: [keys.KeyFlask, keys.KeyPython],
+    langs: [keys.KeyPython, keys.KeyFlask],
     duration: '7 months',
     repository: '',
   },

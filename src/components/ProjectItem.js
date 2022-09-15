@@ -13,6 +13,7 @@ import Terraform from './ProjectTags/Terraform';
 import Vue from './ProjectTags/Vue';
 import Java from './ProjectTags/Java';
 import Gcloud from './ProjectTags/GCloud';
+import Flask from './ProjectTags/Flask';
 import { keys } from '../keys';
 
 const ProjectItemStyles = styled.div`
@@ -109,6 +110,7 @@ export default function ProjectItem({
         {langs.indexOf(keys.KeyPython) >= 0 && <Python />}
         {langs.indexOf(keys.KeyJava) >= 0 && <Java />}
         {langs.indexOf(keys.KeyGCloud) >= 0 && <Gcloud />}
+        {langs.indexOf(keys.KeyFlask) >= 0 && <Flask />}
       </div>
     </ProjectItemStyles>
   );
