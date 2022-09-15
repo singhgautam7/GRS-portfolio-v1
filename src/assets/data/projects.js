@@ -137,6 +137,16 @@ const projects = [
     repository: 'https://github.com/singhgautam7',
     live: '/',
   },
+  {
+    id: uuidv4(),
+    name: 'Telelanguage',
+    desc:
+      'Telelanguage is committed to providing the customers with the highest quality language services with fast connections to certified interpreters. Interpretation over audio and video calls are the core features that it provides.',
+    tags: ['Professional'],
+    langs: [keys.KeyFlask, keys.KeyPython],
+    duration: '7 months',
+    repository: '',
+  },
 ];
 
 export default projects;
