@@ -1,7 +1,7 @@
 {
   "homepage": "http://singhgautam7.github.io/GRS-portfolio-v1",
   "name": "react-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
