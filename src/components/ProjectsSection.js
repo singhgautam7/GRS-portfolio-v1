@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';
 import ProjectItem from './ProjectItem';
 import SectionTitle from './SectionTitle';
-import Button from './Button';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../assets/data/projects';
 
