@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/GRS-portfolio-v1/static/js/main.47446d6b.chunk.js",
+    "main.js.map": "/GRS-portfolio-v1/static/js/main.47446d6b.chunk.js.map",
+    "runtime-main.js": "/GRS-portfolio-v1/static/js/runtime-main.a0469ee2.js",
+    "runtime-main.js.map": "/GRS-portfolio-v1/static/js/runtime-main.a0469ee2.js.map",
+    "static/css/2.217e810c.chunk.css": "/GRS-portfolio-v1/static/css/2.217e810c.chunk.css",
+    "static/js/2.5723c07a.chunk.js": "/GRS-portfolio-v1/static/js/2.5723c07a.chunk.js",
+    "static/js/2.5723c07a.chunk.js.map": "/GRS-portfolio-v1/static/js/2.5723c07a.chunk.js.map",
+    "index.html": "/GRS-portfolio-v1/index.html",
+    "static/css/2.217e810c.chunk.css.map": "/GRS-portfolio-v1/static/css/2.217e810c.chunk.css.map",
+    "static/js/2.5723c07a.chunk.js.LICENSE.txt": "/GRS-portfolio-v1/static/js/2.5723c07a.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/GRS-portfolio-v1/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/GRS-portfolio-v1/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/GRS-portfolio-v1/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/hero.c5b35cbd.jpg": "/GRS-portfolio-v1/static/media/hero.c5b35cbd.jpg",
+    "static/media/map.5ffa3d19.png": "/GRS-portfolio-v1/static/media/map.5ffa3d19.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0469ee2.js",
+    "static/css/2.217e810c.chunk.css",
+    "static/js/2.5723c07a.chunk.js",
+    "static/js/main.47446d6b.chunk.js"
+  ]
+}
